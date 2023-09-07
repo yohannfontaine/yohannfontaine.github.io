@@ -1,0 +1,22 @@
+---
+---
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(
+      rgba(0, 0, 0, {{site.overlay-top}}),
+      rgba(0, 0, 0, {{site.overlay-bottom}})
+    ),
+    url({{ site.background-img | absolute_url }}) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}

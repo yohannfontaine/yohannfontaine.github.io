@@ -29,7 +29,16 @@ url: https://yohannfontaine.github.io # the base hostname & protocol for your si
 github_username: yohannfontaine
 
 # Build settings
-theme: minima
+# theme: minima
+# remote_theme: rmvegasm/jekyll-theme-wallpaper-home
+background-img: assets/img/bg_green_tech.jpeg
+overlay-top: 0.2
+overlay-bottom: 0.8
+intro-width: 35em
+link-color: "#f47f00"
+dark: false
+math: true
+
 plugins:
   - jekyll-feed
 # Exclude from processing.
